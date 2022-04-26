@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
+
+/*  */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-header-1: #333647;
+  --color-header-2: #7a7c8b;
+  --color-about-1: #242834;
+  --color-yellow: #ffaf2a;
+  --color-white: #ffffff;
+  --color-skill: #434657;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: var(--color-white);
+}
+
+h2,
+h1,
+a {
+  font-family: "Balsamiq Sans", cursive;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url(images/Character.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--color-header-1);
+  padding: 5rem;
+}
+
+nav {
+  gap: 54rem;
+  margin-bottom: 1rem;
+}
+
+/* refactor meedeed */
+ul {
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.student {
+  gap: 30rem;
+  font-size: 1rem;
+}
+
+.student-info h2 {
+  color: var(--color-header-2);
+  margin-bottom: 1.5rem;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.intro {
+  font-size: 1.875rem;
+  color: var(--color-white);
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.lorem {
+  color: var(--color-header-2);
+  margin-bottom: 1.5rem;
+}
+
+.link {
+  color: var(--color-yellow);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.about-me {
+  background: var(--color-about-1);
+  padding: 4.125rem 3.375rem;
+}
+
+.about-me h2 {
+  font-size: 3rem;
+  color: var(--color-white);
+  margin-bottom: 3.125rem;
+}
+
+.about-me p {
+  margin-bottom: 3.175rem;
+  font-size: 1.5rem;
+  color: var(--color-header-2);
+  font-weight: 900;
+}
+
+.skills {
+  margin-bottom: -13rem;
+}
+
+.skill {
+  border: 1px;
+  background: var(--color-skill);
+  padding: 3rem;
+  width: 300px;
+  height: 300px;
+}
+
+.skill img {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.skill h3 {
+  color: var(--color-white);
+  font-size: 1.875rem;
+}
+
+.about-skills {
+  background: var(--color-header-1);
+  padding: 0 3.375rem;
+  padding-top: 12rem;
+}
+
+footer {
+  background-color: var(--color-about-1);
+}
+
+/* UTILITIES */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.auto {
+  margin: 0 auto;
+}
