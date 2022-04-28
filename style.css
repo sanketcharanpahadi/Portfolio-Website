@@ -181,6 +181,7 @@ li:nth-child(1) a:nth-child(1) {
   background: var(--color-header-1);
   padding: 0 3.375rem;
   padding-top: 12rem;
+  padding-bottom: 4.5rem;
 }
 
 .about-skill:nth-of-type(1),
@@ -196,8 +197,8 @@ li:nth-child(1) a:nth-child(1) {
 
 .ai {
   width: 301px;
-  gap: 4rem;
-  margin-left: 5rem;
+  gap: 7rem;
+  margin-left: 3rem;
 }
 
 .exp {
@@ -205,7 +206,7 @@ li:nth-child(1) a:nth-child(1) {
 }
 
 .exp img {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.7rem;
 }
 
 .exp h3 {
@@ -213,7 +214,7 @@ li:nth-child(1) a:nth-child(1) {
   max-width: 85%;
   margin: 0 auto; /* refactor */
   font-size: 1.25rem;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .exp p {
@@ -225,6 +226,53 @@ li:nth-child(1) a:nth-child(1) {
 
 footer {
   background-color: var(--color-about-1);
+  position: relative;
+  padding: 5.3rem 15rem;
+}
+
+.footer-circle {
+  width: 70px;
+  height: 70px;
+  background: var(--color-yellow);
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -2.2rem;
+}
+
+footer h2 {
+  font-size: 3rem;
+  color: var(--color-white);
+  text-align: center; /*refractor*/
+  margin-bottom: 1rem;
+}
+
+footer > p {
+  color: var(--color-header-2);
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.contacts {
+  text-align: center;
+}
+
+.contacts p {
+  background-color: var(--color-yellow);
+  margin-bottom: 2.7rem;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+
+.contacts p:nth-child(2) {
+  background-color: #f2b145;
+}
+
+.contacts p:nth-child(3) {
+  background-color: #dfb36a;
 }
 
 /* after element */
